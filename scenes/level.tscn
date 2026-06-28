@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cfmh4dubddlr"]
 
 [ext_resource type="PackedScene" uid="uid://crig101crpe0o" path="res://scenes/player.tscn" id="1_2q6dc"]
-[ext_resource type="PackedScene" uid="uid://cahelgcxor060" path="res://enemy.tscn" id="2_w7c3h"]
+[ext_resource type="PackedScene" uid="uid://cahelgcxor060" path="res://scenes/enemy.tscn" id="2_w7c3h"]
 
 [sub_resource type="Gradient" id="Gradient_2q6dc"]
 colors = PackedColorArray(0.32051277, 0.17233995, 0.020811833, 1, 1, 1, 0.23529412, 1)

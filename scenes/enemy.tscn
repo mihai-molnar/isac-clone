@@ -16,3 +16,9 @@ texture = ExtResource("1_7k104")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_4gyqm")
+
+[node name="DmgLabel" type="Label" parent="."]
+visible = false
+offset_right = 40.0
+offset_bottom = 23.0
+text = "20"

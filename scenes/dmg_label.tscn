@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://st5omb6takj0"]
+
+[ext_resource type="Script" uid="uid://k5un6jrgwf4k" path="res://scripts/dmg_label.gd" id="1_h327j"]
+
+[node name="DmgLabel" type="Label"]
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("1_h327j")
