@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://cfmh4dubddlr"]
+
+[ext_resource type="PackedScene" uid="uid://crig101crpe0o" path="res://scenes/player.tscn" id="1_2q6dc"]
+[ext_resource type="PackedScene" uid="uid://cahelgcxor060" path="res://enemy.tscn" id="2_w7c3h"]
+
+[sub_resource type="Gradient" id="Gradient_2q6dc"]
+colors = PackedColorArray(0.32051277, 0.17233995, 0.020811833, 1, 1, 1, 0.23529412, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_w7c3h"]
+gradient = SubResource("Gradient_2q6dc")
+
+[node name="Level" type="Node2D"]
+
+[node name="BG" type="Sprite2D" parent="."]
+scale = Vector2(9.775674, 7.9827533)
+texture = SubResource("GradientTexture2D_w7c3h")
+
+[node name="Player" parent="." instance=ExtResource("1_2q6dc")]
+position = Vector2(93, 99)
+
+[node name="Enemy" parent="." instance=ExtResource("2_w7c3h")]
