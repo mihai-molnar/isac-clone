@@ -15,7 +15,7 @@ gradient = SubResource("Gradient_2q6dc")
 scale = Vector2(9.775674, 7.9827533)
 texture = SubResource("GradientTexture2D_w7c3h")
 
+[node name="Enemy" parent="." instance=ExtResource("2_w7c3h")]
+
 [node name="Player" parent="." instance=ExtResource("1_2q6dc")]
 position = Vector2(93, 99)
-
-[node name="Enemy" parent="." instance=ExtResource("2_w7c3h")]
